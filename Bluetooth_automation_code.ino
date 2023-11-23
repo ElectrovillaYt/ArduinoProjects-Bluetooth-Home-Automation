@@ -5,7 +5,7 @@ char val; // varaiable to store incoming character via Bluetooth on RX pin.
 void setup() { // Setting up Output.
   pinMode(OUT, OUTPUT);
 
-  Serial.begin(9600); // sarting serial monitor at baud-rate of 9600 to read the incoming value in the serial monitor if required!
+  Serial.begin(9600); //starting serial communication at a baud rate of 9600 to read the incoming value!
 }
 
 void loop() {
